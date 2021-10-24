@@ -6,7 +6,7 @@
 
 
 <h4 align="center">
-  FinAPI is a platform for storing books from a library.
+  FinAPI is a simulation of a bank application, with debit and bank balance withdrawals.
 </h4>
 
 
