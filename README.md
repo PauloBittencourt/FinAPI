@@ -1,26 +1,55 @@
-## FinAPI - Financeira
 
 
+## FinAPI
 
-### Requisitos
+[![Author](https://img.shields.io/badge/author-PauloBittencourt-8257E5?style=flat-square)](https://github.com/paulobittencourt)
 
-- [x] Deve ser possível criar uma conta
-- [x] Deve ser possível buscar o extrato bancário do cliente
-- [x] Deve ser possível realizar um deposito
-- [x] Deve ser possível realizar um saque
-- [x] Deve ser possível buscar o extrato bancário do cliente por data
-- [x] Deve ser possível atualizar dados da conta do cliente
-- [x] Deve ser possível obter dados da conta do cliente
-- [x] Deve ser possível deletar uma conta
-- [x] Deve ser possível retornar o balance
+
+<h4 align="center">
+  FinAPI is a platform for storing books from a library.
+</h4>
+
+
+## Tecnologies
+
+This project was developed using cutting edge back-end technologies.
+
+
+- [NodeJS](https://nodejs.org/en/)
+- [Express](https://www.npmjs.com/package/express/)
+
+
+## 💻 Getting started
+
+### Requirements
+
+- You need to install both [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) to run this project.
+
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/PauloBittencourt/FinAPI.git && cd FinAPI
+```
+
+**Follow the steps below**
+
+```bash
+# Install the dependencies
+$ npm i
+
+# Install Yarn
+$ npm install --global yarn
+
+# Run the web server
+$ yarn dev
+```
+
+The app will be available for access on your browser at `http://localhost:3000`
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Regras de negócio 
-
-- [x] Não deve ser possível cadastrar uma conta com CPF já existente
-- [x] Não deve ser possível fazer depósito em uma conta não existente
-- [x] Não deve ser possível buscar extrato em uma conta não existente
-- [x] Não deve ser possível fazer saque em uma conta não existente
-- [x] Não deve ser possível excluir uma conta não existente
-- [x] Não deve ser possível fazer saque quando o saldo for insuficiente
+Made with 💜 by Paulo Bittencourt 👋 [Check out my LinkedIn](https://www.linkedin.com/in/paulobittencourt2077/)
